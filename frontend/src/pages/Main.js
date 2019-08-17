@@ -32,7 +32,6 @@ export default function Main({ match }) {
         });
 
         socket.on('match', dev => {
-            console.log(dev);
             setMatchDev(dev);
         });
 
