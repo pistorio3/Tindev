@@ -13,7 +13,7 @@ const connectedUsers = {};
 io.on('connection', socket => {
     const { user } = socket.handshake.query;
 
-    console.log('User ID: ' , user);
+    console.log('Usuário ID: ' , user);
     console.log('Socket ID: ', socket.id)
 
     connectedUsers[user] = socket.id; 
