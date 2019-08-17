@@ -14,7 +14,6 @@ module.exports = {
 
         loggedDev.dislikes.push(targetDev._id);
         console.log(loggedDev.name, 'deu dislike em', targetDev.name);
-        console.log('');
 
         await loggedDev.save();
 

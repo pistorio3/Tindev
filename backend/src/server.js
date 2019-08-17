@@ -8,12 +8,26 @@ const app = express();
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
+const connectedUsers = {};
+
 io.on('connection', socket => {
-    console.log('Nova conexão', socket.id)
+    const { user } = socket.handshake.query;
+
+    console.log('User ID: ' , user);
+    console.log('Socket ID: ', socket.id)
+
+    connectedUsers[user] = socket.id; 
 });
 
 mongoose.connect('mongodb+srv://pistorio:06012000@ironman-lf2kq.mongodb.net/db_mongo?retryWrites=true&w=majority',{
     useNewUrlParser: true
+});
+
+app.use((req, res , next) => {
+    req.io = io;
+    req.connectedUsers = connectedUsers;
+
+    return next();
 });
 
 app.use(cors());
