@@ -42,4 +42,4 @@ Execute o seguinte comando `yarn upgrade` ou `yarn upgrade --latest` somente dis
   <img src="img/home.jpg" width="300" height="500" align="center">
 </p>
 
-Documentação em vídeo feita pelo @filipedeschamps https://github.com/filipedeschamps presente na Wiki deste repositório. coffee hour :coffee: code hour, bye
+Documentação em vídeo feita pelo @filipedeschamps https://github.com/filipedeschamps presente na Wiki deste repositório. coffee hour :coffee: code hour :computer:, bye
