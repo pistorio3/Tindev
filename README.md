@@ -1,13 +1,14 @@
 # Tindev (Encontre o seu DEV perfeito)
 Aplicação desenvolvida utilizando: NodeJS, ReactJs e React Native :computer: :iphone: . Este projeto foi desenvolvido durante a semana OmniStack 8.0 da RocketSeat
 
-Tela de login do App:
 
-<p align="center">
-<img src="img/login.jpg" width="300" height="500" align="center">
+<p align="center">Tela de login do App:</p>
+
+<p align="center">  
+  <img src="img/login.jpg" width="300" height="500" align="center">
 </p>
 
-Home do App:
+<p align="center">Home do App:</p>
 
 <p align="center">
 <img src="img/home.jpg" width="300" height="500" align="center">
