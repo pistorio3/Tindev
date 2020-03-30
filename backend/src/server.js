@@ -19,7 +19,7 @@ io.on('connection', socket => {
     connectedUsers[user] = socket.id; 
 });
 
-mongoose.connect('mongodb+srv://pistorio:06012000@ironman-lf2kq.mongodb.net/db_mongo?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://pistorio:06012000@api-iot-upbed.mongodb.net/test?retryWrites=true&w=majority',{
     useNewUrlParser: true
 });
 
