@@ -38,8 +38,8 @@ Execute o seguinte comando `yarn upgrade` ou `yarn upgrade --latest` somente dis
 <p align="center">Tela de login e Tela incial da versão Mobile</p>
 
 <p align="center">  
-  <img src="img/login.jpg" width="300" height="520" align="center">
-  <img src="img/home.jpg" width="300" height="520" align="center">
+  <img src="img/login-mobile.jpg" width="300" height="520" align="center">
+  <img src="img/home-mobile.jpg" width="300" height="520" align="center">
 </p>
 
 Documentação em vídeo feita pelo @filipedeschamps https://github.com/filipedeschamps presente na Wiki deste repositório. coffee hour :coffee: code hour :computer:, bye
